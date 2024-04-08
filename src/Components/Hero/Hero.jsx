@@ -8,12 +8,12 @@ import { Typewriter } from "react-simple-typewriter";
 import { fadeInFromLeft } from "../../Animation/FadeFromLeftAnimation";
 const Hero = () => {
   const words = [
-    "a Full-Stack Dev",
-    "a UX Designer",
-    "an NLP Researcher",
-    "an Entrepreneur",
-    "an Educator", 
-    "a Digital Architect",
+    "a Full-Stack Dev.",
+    "a UX Designer.",
+    "an NLP Researcher.",
+    "an Entrepreneur.",
+    "an Educator.", 
+    "a Digital Architect.",
   ];
   return (
     <div className="home  relative   overflow-hidden min-h-[85vh] sm:min-h-[90vh] ">
@@ -30,9 +30,9 @@ const Hero = () => {
               loop={Infinity}
               cursor
               cursorStyle="|"
-              typeSpeed={90}
+              typeSpeed={50}
               deleteSpeed={50}
-              delaySpeed={1000}
+              delaySpeed={5000}
             />
           </h1>
           <div className="w-1/2 lg:w-4/5   justify-center items-center md:w-full  h-full hidden lg:flex">
@@ -51,7 +51,7 @@ const Hero = () => {
           >
             As a skilled developer, I am dedicated to turning ideas into
             innovative web applications. Explore my latest projects and
-            articles, showcasing my expertise in React.js and web development.
+            articles, showcasing my expertise in web development. <br/>
           </motion.p>
           <div className="flex items-center  min-w-5/12 gap-x-7 flex-wrap gap-y-5 ">
             <motion.a
@@ -72,6 +72,13 @@ const Hero = () => {
               Contact
             </motion.a>
           </div>
+          <motion.p
+            {...fadeInFromLeft(0.1)}
+            className="py-5 text-lg w-10/12 lg:w-full  text-light"
+          >
+            <br/>
+          Scroll down for more ... 👇
+          </motion.p>
         </div>
         <div className="w-5/12 lg:w-4/5  flex justify-center items-center md:w-full  h-full lg:hidden">
           <div className=" w-10/12 h-[66%] md:h-full flex items-center justify-center  ">

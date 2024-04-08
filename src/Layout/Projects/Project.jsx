@@ -102,7 +102,7 @@ const Project = () => {
             slidesPerView={"auto"}
             spaceBetween={30}
             centeredSlides={true}
-            speed={400}
+            speed={800}
             grabCursor={true}
             pagination={{
               clickable: false,
