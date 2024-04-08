@@ -45,7 +45,7 @@ const Contact = () => {
                 required
                 type="email"
                 className="border text-white border-white outline-none  rounded-md py-3  bg-[#202020] pl-3"
-                placeholder="Enter Name"
+                placeholder="Enter Email"
               />
             </motion.div>
             <motion.div
