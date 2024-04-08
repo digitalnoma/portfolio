@@ -36,53 +36,53 @@ const Project = () => {
       image: draftCentral,
       date: "Dec 2023",
       title: "CPF Board - draftCentral",
-      description: "Developed a Gen AI app with React, Material UI, integrating FastAPI and LLM API for semantic search and information retrieval."
+      description: "Developed a GenAI app with React, Material UI, integrating FastAPI and LLM API for semantic search and information retrieval."
     },
     {
       id: 3,
       image: temasek,
       date: "Feb 2024",
       title: "ClauseGenie",
-      description: "Temasek x SUTD GenAI Hackathon Managed UI/UX and front-end with React, with backend GenAI API integration."
+      description: "Temasek x SUTD GenAI Hackathon Managed UI/UX design & dev, with backend GenAI integration."
     },
     {
       id: 4,
       image: digitalFrost,
       date: "Feb 2024",
       title: "Digital Frost",
-      description: "Architected a website for Robert Frost, featuring his works and recordings using React and CSS, offering an immersive experience."
+      description: "I architected a website dedicated to Robert Frost, meticulously featuring his literary works and audio recordings, utilizing React and CSS to deliver a deeply immersive, interactive, and visually engaging user experience."
     },
     {
       id: 5,
       image: moodify,
       date: "Mar 2024",
       title: "Moodify",
-      description: "Developed Moodify, a music recommender integrating LLMs and emotion analysis with React, for tailored playlists."
+      description: "Developed Moodify, a music recommender integrating LLMs and emotion analysis with Streamlit and PyTorch, for tailored playlists."
     },
     {
       id: 6,
       image: prlgl,
       date: "Apr 2024",
       title: "Prlgl - Startup",
-      description: " Django and React/TailwindCSS"
+      description: " Django | React | TailwindCSS"
     },
     {
       id: 7,
       image: portfolio,
       date: "Apr 2024",
       title: "Portfolio Website",
-      description: "Designed my portfolio with Vite, ReactJS, TailwindCSS, and Framer Motion, showcasing a design-centric approach."
+      description: "Leveraging advanced web technologies including Vite, ReactJS, TailwindCSS, and Framer Motion, my portfolio exhibits a meticulous, design-centric approach, emphasizing user experience and aesthetic elegance."
     }
   ];
   
-  
-  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const [progress, setProgress] = useState(0);
+  const [progress, setProgress] = useState(1);
 
   const updateProgress = (swiper) => {
-    const fraction = swiper.realIndex / (swiper.slides.length - 1);
-    setProgress(fraction * (projects.length));
+    // Directly use swiper.realIndex, which is the index of the active slide, starting from 0
+    // Add 1 to start counting from 1 instead of 0
+    setProgress(swiper.realIndex + 1);
   };
+  
   
   return (
     <div className="bg-dark py-10  min-h-screen">

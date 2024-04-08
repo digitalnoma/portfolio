@@ -77,7 +77,7 @@ const Hero = () => {
             className="py-5 text-lg w-10/12 lg:w-full  text-light"
           >
             <br/>
-          Scroll down for more ... 👇
+          Scroll down to find out more ... 👇
           </motion.p>
         </div>
         <div className="w-5/12 lg:w-4/5  flex justify-center items-center md:w-full  h-full lg:hidden">
