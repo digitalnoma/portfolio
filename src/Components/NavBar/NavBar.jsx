@@ -81,11 +81,11 @@ const NavBar = () => {
                     onClick={() => setShow(false)}
                     smooth={true}
                     duration={500}
-                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryyellow duration-300 group`}
+                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryorange duration-300 group`}
                   >
                     Home
                     <span
-                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryyellow md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0 `}
+                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryorange md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0 `}
                     ></span>
                   </ScrollLink>
                 </li>
@@ -95,11 +95,11 @@ const NavBar = () => {
                     onClick={() => setShow(false)}
                     smooth={true}
                     duration={500}
-                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryyellow duration-300 group`}
+                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryorange duration-300 group`}
                   >
                     About
                     <span
-                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryyellow md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0`}
+                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryorange md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0`}
                     ></span>
                   </ScrollLink>
                 </li>
@@ -109,11 +109,11 @@ const NavBar = () => {
                     to="project"
                     smooth={true}
                     duration={500}
-                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryyellow duration-300 group`}
+                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryorange duration-300 group`}
                   >
                     Projects
                     <span
-                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryyellow md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0  `}
+                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryorange md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0  `}
                     ></span>
                   </ScrollLink>
                 </li>
@@ -123,11 +123,11 @@ const NavBar = () => {
                     to="contact"
                     smooth={true}
                     duration={500}
-                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryyellow duration-300 group`}
+                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryorange duration-300 group`}
                   >
                     Contact
                     <span
-                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryyellow md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0 `}
+                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryorange md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0 `}
                     ></span>
                   </ScrollLink>
                 </li>

@@ -19,7 +19,8 @@ export default {
         montserrat: "'Montserrat', sans-serif",
       },
       colors: {
-        primaryyellow: "#fbee44",
+        primaryblue: "14213d",
+        primaryorange: "#FCA311",
       },
       backgroundImage: {
         gradientyellowbg:

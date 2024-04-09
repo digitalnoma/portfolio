@@ -67,7 +67,7 @@ const Contact = () => {
             </motion.div>
             <motion.button
               {...fadeInFromLeft(0.7)}
-              className="btn w-40 mt-4 bg-primaryyellow text-black border-0 font-semibold flex justify-center items-center gap-x-6   border-white cursor-pointer relative after:absolute after:left-0 after:top-0 after:w-0 after:duration-300 after:hover:w-full after:rounded-md z-20 after:bg-white after:bg-opacity-35 group  after:h-full"
+              className="btn w-40 mt-4 bg-primaryorange text-black border-0 font-semibold flex justify-center items-center gap-x-6   border-white cursor-pointer relative after:absolute after:left-0 after:top-0 after:w-0 after:duration-300 after:hover:w-full after:rounded-md z-20 after:bg-white after:bg-opacity-35 group  after:h-full"
               type="submit"
             >
               Send
