@@ -95,7 +95,7 @@ const About = () => {
                   <CountUp start={1} duration={5} end={3} delay={1} />+
                 </h2>
                 <p className="font-montserrat text-light text-xl  ">
-                  Years of Experiance
+                  Years of Experience
                 </p>
               </div>
             </div>
