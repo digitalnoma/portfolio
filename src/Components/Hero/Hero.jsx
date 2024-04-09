@@ -32,7 +32,7 @@ const Hero = () => {
               cursorStyle="|"
               typeSpeed={50}
               deleteSpeed={50}
-              delaySpeed={5000}
+              delaySpeed={3000}
             />
           </h1>
           <div className="w-1/2 lg:w-4/5   justify-center items-center md:w-full  h-full hidden lg:flex">
