@@ -28,17 +28,15 @@ const About = () => {
               </h3>
               <motion.p
                 {...fadeInFromLeft(0.3)}
-                className="font-medium font-montserrat text-lg  text-light"
+                className="font-medium font-montserrat text-lg  text-light text-justify"
               >
                 Hi, I&apos;m Marcus, a web developer and UI/UX designer with a
                 passion for creating design-centric
-                digital experiences. With 3 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' vision to life.
+                digital experiences.
               </motion.p>
               <motion.p
                 {...fadeInFromLeft(0.5)}
-                className="font-medium my-5 font-montserrat text-lg  text-light"
+                className="font-medium my-5 font-montserrat text-lg  text-light text-justify"
               >
                 I believe that design is about more than just making things look
                 aesthetic - it&apos;s about solving problems, and creating
@@ -46,10 +44,9 @@ const About = () => {
               </motion.p>
               <motion.p
                 {...fadeInFromLeft(0.7)}
-                className="font-medium font-montserrat text-lg  text-light"
+                className="font-medium font-montserrat text-lg  text-light text-justify"
               >
-                Whether I&apos;m working on a web app, or other
-                digital products, I bring my commitment to design excellence and
+                I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
                 forward to the opportunity to bring my skills and passion to
                 your next project.
@@ -75,7 +72,7 @@ const About = () => {
                   <CountUp start={1} duration={5} end={10} delay={1} />+
                 </h2>
 
-                <p className="font-montserrat text-light text-xl  ">
+                <p className="font-montserrat text-light text-xl ">
                   Satisfied Clients
                 </p>
               </div>
