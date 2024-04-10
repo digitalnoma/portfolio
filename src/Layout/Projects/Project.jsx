@@ -143,7 +143,7 @@ const Project = () => {
                       <div className="w-[300px] sm:w-full bg-white hover:bg-light duration-300 h-[400px] cursor-pointer rounded-xl bg-light card group overflow-hidden relative">
                         <img
                           src={item.image}
-                          className="w-full h-max group-hover:opacity-75 duration-700"
+                          className="w-full h-max duration-700"
                           alt=""
                         />
                         <div className="px-5 py-3 flex-grow fledx flex-col justify-center">
