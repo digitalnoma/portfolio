@@ -3,7 +3,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 // import porfileImg from "../../assets/Profile.jpg";
 import porfileImg from "../../assets/Profile.png";
 import { motion } from "framer-motion";
-import Resume from "../../assets/marcus-resume.pdf";
+import Resume from "../../assets/marcus-hacker-resume.pdf";
 import { Typewriter } from "react-simple-typewriter";
 import { fadeInFromLeft } from "../../Animation/FadeFromLeftAnimation";
 const Hero = () => {
