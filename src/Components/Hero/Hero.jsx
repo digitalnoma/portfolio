@@ -8,12 +8,11 @@ import { Typewriter } from "react-simple-typewriter";
 import { fadeInFromLeft } from "../../Animation/FadeFromLeftAnimation";
 const Hero = () => {
   const words = [
+    "an Entrepreneur",
     "a Full-Stack Dev.",
-    "a UX Designer.",
-    "an NLP Researcher.",
-    "an Entrepreneur.",
+    "a Product Designer.",
+    "a Researcher.",
     "an Educator.", 
-    "a Digital Architect.",
   ];
   return (
     <div className="home  relative   overflow-hidden min-h-[85vh] sm:min-h-[90vh] ">
@@ -51,8 +50,9 @@ const Hero = () => {
           >
             As a skilled developer, I am dedicated to turning ideas into
             innovative web applications. Explore my latest projects and
-            articles, showcasing my expertise in web development. <br/>
-          </motion.p>
+            articles, showcasing my expertise in web development. <br/><br/>
+            Best viewed on Desktop.<br/>
+          </motion.p> 
           <div className="flex items-center  min-w-5/12 gap-x-7 flex-wrap gap-y-5 ">
             <motion.a
               {...fadeInFromLeft(0.2)}
