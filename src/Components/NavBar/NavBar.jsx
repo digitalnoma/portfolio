@@ -6,7 +6,7 @@ import {
   FaGithub,
   // FaFacebook,
   FaWhatsapp,
-} from "react-icons/fa";
+} from "react-icons/fa";  
 import { motion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
 import { CgMenuLeftAlt } from "react-icons/cg";
@@ -14,6 +14,7 @@ import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
 import useClickOutsideDetector from "../../Hooks/useClickOutsideDetector";
 import useThemeSwitcher from "../../Hooks/useThemeSwitcher";
+
 const NavBar = () => {
   const [show, setShow] = useState(false);
   const menuRef = useRef();
@@ -26,7 +27,7 @@ const NavBar = () => {
     setShow(false);
   });
 
-  //Check For Small Devices Either that is is Mobie Navbar is Show or not
+  //Check For Smaller Devices Either that is is Mobile Navbar is Show or not
 
   let matchMedia = window.matchMedia("(max-width:768px)");
 
@@ -55,16 +56,9 @@ const NavBar = () => {
       <header className="bg-dark duration-300 h-24 py-10 flex items-center  relative z-30">
         <div className="min-h-[30px] flex items-center justify-between   w-10/12 mx-auto  md:w-11/12 md:mx-auto 3xl:w-[1800px] 3xl:mx-auto">
           <div className="w-4/12 flex items-center  ">
-            <ScrollLink
-              to="/"
-              onClick={() => setShow(false)}
-              smooth={true}
-              duration={500}
-            >
-              <h3 className="text-light tracking-wider hover:animate-pulse rounded-full flex justify-center items-center  font-bold cursor-pointer border-transparent border-2 text-2xl font-montserrat uppercase  ">
+              <h3 className="text-light tracking-wider rounded-full flex justify-center items-center  font-bold border-transparent border-2 text-2xl font-montserrat uppercase  ">
                 Marcus
               </h3>
-            </ScrollLink>
           </div>
 
           <div
@@ -73,22 +67,8 @@ const NavBar = () => {
             }  `}
             ref={menuRef}
           >
-            <div className="w-3/12  lg:w-5/12 md:h-2/5 md:mb-10">
+            <div className="w-4/12  lg:w-6/12 md:h-2/5 md:mb-10">
               <ul className="flex h-[31px] justify-between md:flex-col md:items-center md:h-full text-white md:text-black ">
-                <li>
-                  <ScrollLink
-                    to="home"
-                    onClick={() => setShow(false)}
-                    smooth={true}
-                    duration={500}
-                    className={`cursor-pointer relative md:text-dark text-light hover:text-primaryorange duration-300 group`}
-                  >
-                    Home
-                    <span
-                      className={`absolute w-0 group-hover:w-full duration-300 bg-primaryorange md:bg-white inline-block bg-dark h-[1px] -bottom-1 left-0 `}
-                    ></span>
-                  </ScrollLink>
-                </li>
                 <li>
                   <ScrollLink
                     to="about"

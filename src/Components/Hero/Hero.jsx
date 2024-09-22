@@ -8,11 +8,9 @@ import { Typewriter } from "react-simple-typewriter";
 import { fadeInFromLeft } from "../../Animation/FadeFromLeftAnimation";
 const Hero = () => {
   const words = [
-    "an Entrepreneur",
-    "a Full-Stack Dev.",
-    "a Product Designer.",
-    "a Researcher.",
-    "an Educator.", 
+    "a Developer",
+    "a UI / UX Designer",
+    "an Educator",
   ];
   return (
     <div className="home  relative   overflow-hidden min-h-[85vh] sm:min-h-[90vh] ">
