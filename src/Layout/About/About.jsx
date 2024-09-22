@@ -1,6 +1,5 @@
 import Img from "../../assets/marcs-invest.png";
 import { motion } from "framer-motion";
-import CountUp from "react-countup";
 import { fadeInFromLeft } from "../../Animation/FadeFromLeftAnimation";
 import TechStack from "../../Components/TechStack/TechStack";
 
