@@ -14,7 +14,7 @@ const Hero = () => {
     <div className="home  relative   overflow-hidden min-h-[85vh] sm:min-h-[90vh] ">
       <div className="w-10/12 mx-auto md:w-11/12  flex items-center md:pb-10 sm:pt-2 sm:pb-0  lg:flex-col-reverse lg:gap-y-10 ">
         <div className="w-7/12   lg:w-full lg:flex lg:flex-col lg:items-center lg:text-center ">
-          <h1 className="text-[53px] xl:text-5xl text-light font-bold font-montserrat leading-tight lg:text-6xl lg:my-10 sm:text-4xl md:text-center md:flex md:justify-center gap-y-3 md:gap-x-1    flex flex-wrap gap-x-3 h1 sm:gap-y-2 sm:mt-4">
+          <h1 className="text-[55px] xl:text-5xl text-light font-bold font-montserrat leading-tight lg:text-6xl lg:my-10 sm:text-4xl md:text-center md:flex md:justify-center gap-y-3 md:gap-x-1    flex flex-wrap gap-x-3 h1 sm:gap-y-2 sm:mt-4">
             I am 
             <Typewriter
               key="uniqueKey"
