@@ -91,7 +91,7 @@ const Project = () => {
           <Swiper
             slidesPerView={"auto"}
             spaceBetween={30}
-            centeredSlides={true}
+            centeredSlides={false}
             speed={800}
             grabCursor={true}
             pagination={{

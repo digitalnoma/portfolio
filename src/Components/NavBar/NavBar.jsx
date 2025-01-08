@@ -56,9 +56,9 @@ const NavBar = () => {
       <header className="bg-dark duration-300 h-24 py-10 flex items-center  relative z-30">
         <div className="min-h-[30px] flex items-center justify-between   w-10/12 mx-auto  md:w-11/12 md:mx-auto 3xl:w-[1800px] 3xl:mx-auto">
           <div className="w-4/12 flex items-center  ">
-              <h3 className="text-light tracking-wider rounded-full flex justify-center items-center  font-bold border-transparent border-2 text-2xl font-montserrat uppercase  ">
-                Marcus
-              </h3>
+              <h4 className="text-light rounded-full flex justify-center items-center border-transparent border-2 text-2xl font-montserrat  ">
+                dnoma
+              </h4>
           </div>
 
           <div

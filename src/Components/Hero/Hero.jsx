@@ -1,23 +1,18 @@
 import { BsBoxArrowUpRight } from "react-icons/bs";
-// import miscImg from "../../assets/miscellaneous_icons_1..svg";
-// import porfileImg from "../../assets/Profile.jpg";
-import porfileImg from "../../assets/Profile.png";
+import porfileImg from "../../assets/marcs-invest.png";
 import { motion } from "framer-motion";
 import Resume from "../../assets/marcusng-resume.pdf";
 import { Typewriter } from "react-simple-typewriter";
 import { fadeInFromLeft } from "../../Animation/FadeFromLeftAnimation";
 const Hero = () => {
   const words = [
-    "a Developer",
+    "a Software Developer",
     "a UI / UX Designer",
-    "an Educator",
+    "a Product Engineer",
   ];
   return (
     <div className="home  relative   overflow-hidden min-h-[85vh] sm:min-h-[90vh] ">
-      <div className="w-10 h-10 bg-linear-orange-yellow rounded-full animate-pulse absolute top-0 left-2"></div>
-      <div className="w-20 h-20 bg-linear-orange-yellow rounded-full animate-pulse absolute top-0 right-4 sm:hidden"></div>
-      <div className="w-20 h-20 bg-linear-orange-yellow rounded-full animate-pulse absolute bottom-0 right-0 md:bottom-0 sm:w-14 sm:h-14"></div>
-      <div className="w-10/12 mx-auto md:w-11/12  flex items-center pt-20 md:pb-10 sm:pt-2 sm:pb-0  lg:flex-col-reverse lg:gap-y-10 ">
+      <div className="w-10/12 mx-auto md:w-11/12  flex items-center md:pb-10 sm:pt-2 sm:pb-0  lg:flex-col-reverse lg:gap-y-10 ">
         <div className="w-7/12   lg:w-full lg:flex lg:flex-col lg:items-center lg:text-center ">
           <h1 className="text-[53px] xl:text-5xl text-light font-bold font-montserrat leading-tight lg:text-6xl lg:my-10 sm:text-4xl md:text-center md:flex md:justify-center gap-y-3 md:gap-x-1    flex flex-wrap gap-x-3 h1 sm:gap-y-2 sm:mt-4">
             I am 
@@ -27,9 +22,9 @@ const Hero = () => {
               loop={Infinity}
               cursor
               cursorStyle="|"
-              typeSpeed={50}
-              deleteSpeed={50}
-              delaySpeed={3000}
+              typeSpeed={70}
+              deleteSpeed={70}
+              delaySpeed={2500}
             />
           </h1>
           <div className="w-1/2 lg:w-4/5   justify-center items-center md:w-full  h-full hidden lg:flex">
@@ -44,13 +39,9 @@ const Hero = () => {
           </div>
           <motion.p
             {...fadeInFromLeft(0.1)}
-            className="py-5 text-lg w-10/12 lg:w-full  text-light"
+            className="py-5 text-lg w-10/12 lg:w-full text-light"
           >
-            As a skilled developer, I am dedicated to turning ideas into
-            innovative web applications. Explore my latest projects and
-            articles, showcasing my expertise in web development. <br/><br/>
-            Best viewed on Desktop.<br/>
-          </motion.p> 
+            Hi, I’m Marcus! A Front End Software Engineer passionate about blending design and technology. I build intuitive web applications and craft user focused designs to deliver responsive, scalable solutions.          </motion.p> 
           <div className="flex items-center  min-w-5/12 gap-x-7 flex-wrap gap-y-5 ">
             <motion.a
               {...fadeInFromLeft(0.2)}
@@ -75,7 +66,7 @@ const Hero = () => {
             className="py-5 text-lg w-10/12 lg:w-full  text-light"
           >
             <br/>
-          Scroll down to find out more ... 👇
+          Keep scrolling to find out more about my story ... 👇
           </motion.p>
         </div>
         <div className="w-5/12 lg:w-4/5  flex justify-center items-center md:w-full  h-full lg:hidden">
