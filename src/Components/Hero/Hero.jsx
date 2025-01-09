@@ -1,7 +1,7 @@
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import porfileImg from "../../assets/marcs-invest.png";
 import { motion } from "framer-motion";
-import Resume from "../../assets/marcusng-resume.pdf";
+import Resume from "../../assets/marcus-resume-swe.pdf";
 import { Typewriter } from "react-simple-typewriter";
 import { fadeInFromLeft } from "../../Animation/FadeFromLeftAnimation";
 const Hero = () => {
